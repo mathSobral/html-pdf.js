@@ -1,17 +1,25 @@
 {
-  "name": "html-pdf.js",
+  "name": "@mathSobral/html-pdf.js",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "author": {
+    "name": "Matheus Sobral",
+    "email": "matth.sobral@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mathSobral/html-pdf.js"
+  },
+  "main": "out/index.js",
+  "types": "out/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/mathSobral"
+  },
   "scripts": {
     "build": "tsc",
     "test": "jest"
   },
-  "repository": {
-    "type": "git"
-  },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^26.0.24",
